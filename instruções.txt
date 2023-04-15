@@ -1,0 +1,14 @@
+Utilizando uma estrutura do tipo vector ou lista (escolha do
+aluno) crie um programa capaz de simular o comportamento
+de uma pilha (stack) e outro programa capaz de simular uma
+fila (queue)
+
+
+cout << "Que operação deseja fazer na fila?" << endl;
+    cout << "1- Para adiconar um elemento na fila;" << endl
+         << "2- Para remover um elemento da fila;" << endl
+         << "3- Para retornar uma referência ao primeiro elemento da fila" << endl
+         << "4- Para retornar uma referência ao último elemento da fila" << endl
+         << "5- Para saber se a fila está vazia" << endl
+         << "6- Para retornar o tamanho da fila" << endl
+         << "7- Para sair" << endl;

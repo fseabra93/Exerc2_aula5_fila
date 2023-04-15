@@ -82,16 +82,13 @@ int main() {
     
   }while(op >= 1 && op <7);
 
-  cout << "fila = { ";
-  for (auto i = fila.begin(); i != fila.end(); i++){
-    cout << *i << " ";
-  }
-  cout << "}"<< endl << endl;
+  imprime(fila);
   
 }
 
 void imprime(vector<int>f){
-  cout << "fila = { ";
+  
+  cout << "\nfila = { ";
   for (auto i = f.begin(); i != f.end(); i++){
     cout << *i << " ";
   }
